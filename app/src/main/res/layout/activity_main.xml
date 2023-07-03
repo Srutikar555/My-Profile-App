@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical"
+    android:background="#000842">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="25dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="My Profile"
+        android:textColor="#68DF15"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="245dp"
+        android:layout_height="280dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#044C8C"
+        app:civ_border_width="2dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#214F55"
+        app:civ_shadow_radius="8dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="30dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Sruti Smaranika Kar"
+        android:textColor="#68DF15"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/person"
+            android:paddingTop="8dp"
+            app:tint="#B388FF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#F0F2F4"
+            android:paddingBottom="6dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="6dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sruti Smaranika Kar"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="36dp"
+            android:paddingTop="6dp"
+            android:textColor="#F3F4F6"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/skill"
+            app:tint="#B388FF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#FAFAFB"
+            android:paddingLeft="20dp"
+            android:paddingBottom="6dp"
+            android:paddingRight="20dp"
+            android:paddingTop="6dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Development, UI/UX"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="42dp"
+            android:textColor="#FDFEFF"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/hobby"
+            app:tint="#B388FF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobby"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#F5F6F8"
+            android:paddingLeft="20dp"
+            android:paddingBottom="6dp"
+            android:paddingRight="20dp"
+            android:paddingTop="6dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Painting,Travelling"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="34dp"
+            android:paddingTop="6dp"
+            android:textColor="#FAFBFD"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/phone"
+            app:tint="#B388FF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phn No."
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#F8F9FA"
+            android:paddingLeft="20dp"
+            android:paddingBottom="6dp"
+            android:paddingRight="20dp"
+            android:paddingTop="6dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 8480609984"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="6dp"
+            android:textColor="#F9FAFB"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/mail"
+            app:tint="#B388FF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#F5F6F8"
+            android:paddingLeft="20dp"
+            android:paddingBottom="6dp"
+            android:paddingRight="20dp"
+            android:paddingTop="6dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="srutismaranika2123@gmail.com"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="4dp"
+            android:paddingTop="6dp"
+            android:textColor="#F8F9FA"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/adress"
+            app:tint="#B388FF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#F6F7F8"
+            android:paddingLeft="20dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingRight="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bhubaneshwar, Odisha"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingLeft="24dp"
+            android:paddingTop="6dp"
+            android:textColor="#F5F6F8"
+            android:paddingBottom="6dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:paddingTop="20dp"
+     android:orientation="horizontal">
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/linkedin"
+        android:clickable="true"
+        android:onClick="openLinkedin"
+        android:layout_height="30dp"
+        android:layout_marginLeft="61dp"
+        android:src="@drawable/linkedin111" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/github"
+        android:clickable="true"
+        android:onClick="openGithub"
+        android:layout_height="30dp"
+        android:layout_marginLeft="71dp"
+        android:src="@drawable/github111" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/instagram"
+        android:clickable="true"
+        android:onClick="openInstagram"
+        android:layout_height="30dp"
+        android:layout_marginLeft="81dp"
+        android:src="@drawable/insta1" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SrutisProfile2</string>
+    <string name="LINKEDIN">
+        <a href = "https://www.linkedin.com/in/sruti-smaranika-kar-9a290125b">LINKEDIN</a>
+    </string>
+    <string name="GITHUB">
+        <a href = "https://github.com/Srutikar555">GITHUB</a>
+    </string>
+    <string name="INSTAGRAM">
+        <a href = "https://instagram.com/_srutikar_?igshid=MzNlNGNkZWQ4Mg">INSTAGRAM</a>
+    </string>
+</resources>
